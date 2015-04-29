@@ -31,33 +31,6 @@ Ext.define('Wap.view.main.Main', {
         region: 'west',
         width: 250,
         split: true,
-        items:
-        [
-            {
-                xtype: 'treepanel',
-                root: {
-                    children: [{
-                        text: 'Europe, ME, Africa',
-                        children: [{
-                            text: 'UK of GB & NI',
-                            children: [{
-                                text: 'London',
-                                leaf: true
-                            }]
-                        }]
-                    }, {
-                        text: 'North America',
-                        children: [{
-                            text: 'USA',
-                            children: [{
-                                text: 'Redwood City',
-                                leaf: true
-                            }]
-                        }]
-                    }]
-                }
-            }
-        ]
     },{
         region: 'center',
         xtype: 'tabpanel',
